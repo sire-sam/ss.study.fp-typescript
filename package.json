@@ -1,0 +1,17 @@
+{
+  "name": "ss.study.currying",
+  "version": "1.0.0",
+  "description": "Study on functional programming currying paradigm ",
+  "main": "index.js",
+  "author": "sire-sam <sire-sam@users.noreply.github.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "tslint": "^5.7.0",
+    "tslint-config-airbnb": "^5.3.0",
+    "typescript": "^2.5.3"
+  },
+  "scripts": {
+    "start": "tsc -p tsconfig.json --watch",
+    "build": "tsc -p tsconfig.json"
+  }
+}
