@@ -6,12 +6,16 @@
   "author": "sire-sam <sire-sam@users.noreply.github.com>",
   "license": "UNLICENSED",
   "dependencies": {
+    "@types/lodash": "^4.14.77",
+    "@types/node": "^8.0.34",
+    "lodash": "^4.17.4",
     "tslint": "^5.7.0",
     "tslint-config-airbnb": "^5.3.0",
     "typescript": "^2.5.3"
   },
   "scripts": {
-    "start": "tsc -p tsconfig.json --watch",
-    "build": "tsc -p tsconfig.json"
+    "start": "node ./dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "test": "yarn build && yarn start"
   }
 }
