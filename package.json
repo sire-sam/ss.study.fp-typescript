@@ -1,8 +1,7 @@
 {
-  "name": "ss.study.currying",
+  "name": "ss.study.fp-typescript",
   "version": "1.0.0",
-  "description": "Study on functional programming currying paradigm ",
-  "main": "index.js",
+  "description": "Study on functional programming with typescript ",
   "author": "sire-sam <sire-sam@users.noreply.github.com>",
   "license": "UNLICENSED",
   "dependencies": {
